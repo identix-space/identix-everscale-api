@@ -17,7 +17,7 @@ export class EverscaleTransfersResolvers {
     @Args('address', { type: () => String }) address: string,
     @Args('tokens', { type: () => [TokenInfo] }) tokens: TokenInfo[],
   ) {
-    return this.everscaleSdkClient.checkTokensTransactions(address, tokens, 1000, 3600);
+    return this.everscaleSdkClient.checkTokensTransactions(address, tokens);
   }
 
   @Mutation(() => TransferResultType)

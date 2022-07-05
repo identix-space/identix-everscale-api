@@ -29,7 +29,7 @@
     "ethereumjs-util": "^7.1.5",
     "express": "^4.17.1",
     "graphql": "^16.5.0",
-    "identix-everscale-sdk": "^0.0.3",
+    "identix-everscale-sdk": "^0.0.8",
     "joi": "^17.6.0",
     "nestjs-pino": "^2.6.0",
     "noble-ed25519": "^1.2.6",

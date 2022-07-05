@@ -4696,10 +4696,10 @@ iconv-lite@^0.6.2:
   dependencies:
     safer-buffer ">= 2.1.2 < 3.0.0"
 
-identix-everscale-sdk@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/identix-everscale-sdk/-/identix-everscale-sdk-0.0.2.tgz#d61870e1f08c7950482485d1336e6772ee6447f1"
-  integrity sha512-Ds7MAGFU32qI0mPn0kZjGY3B9GIgNUGnnnzpFsIXIgLYOQOn2FTb2yAr3ays6HRWCX4nBzSPzhB9Gfjxe+ubOA==
+identix-everscale-sdk@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/identix-everscale-sdk/-/identix-everscale-sdk-0.0.7.tgz#3536b3fe4f1828a528a1e6aad85ff953bef455e8"
+  integrity sha512-2//2eYhM5IbafWG9vdORXJ7q5eI2anEV9RgIs3t8aq6wByPGJn+m8uGyGc0AkGVLrC70zqYe9Vwi5RGJ9iaN9w==
   dependencies:
     "@nestjs/common" "^8.4.7"
     "@nestjs/config" "^2.0.1"

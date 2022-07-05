@@ -37,4 +37,7 @@ export class TokenInfo {
 
   @Field(() => OperationKind, { nullable: false })
   operationKind!: OperationKind;
+
+  @Field(() => String, { nullable: true })
+  contragent: string | undefined;
 }
